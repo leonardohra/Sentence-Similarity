@@ -10,7 +10,7 @@ It's a glove model, using tweeter source for its scraping algorithm. It has 27 b
 \
 Usually the models are either .txt or .bin\
 .txt models contains a csv with the first element being the word and the next X values the values of their dimensions\
-\
+
 ## Using the algorithms
 \
 The sentence similarity will require a model to work with, so the first thing to be done is to load the model.\
@@ -49,4 +49,4 @@ s2 = 'Obama speaks in Illinois'\
 Then, just run the function "sentence_similarity_by_cosine_distance":\
 sentence_similarity_by_cosine_distance(s1, s2, model)\
 \
-This code is written in "Test.py", using the smaller dataset, since it's only for testing.\
+This code is written in "Test.py", using the smaller dataset, since it's only for testing.
