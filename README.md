@@ -9,7 +9,7 @@ glove.twitter.27B.25d.txt\
 It's a glove model, using tweeter source for its scraping algorithm. It has 27 billion words and each word is represented by an array of 25 dimensions.\
 \
 Usually the models are either .txt or .bin\
-.txt models contains a csv with the first element being the word and the next X values the values of their dimensions\
+.txt models contains a csv with the first element being the word and the next X values the values of their dimensions. .bin models need to be loaded with a library, like Gensim.
 
 ## Using the algorithms
 \
