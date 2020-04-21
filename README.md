@@ -11,14 +11,17 @@ It's a glove model, using tweeter source for its scraping algorithm. It has 27 b
 Usually the models are either .txt or .bin\
 .txt models contains a csv with the first element being the word and the next X values the values of their dimensions\
 \
-## Using the algorithms\
+## Using the algorithms
 \
 The sentence similarity will require a model to work with, so the first thing to be done is to load the model.\
 First download the model that you want to use.\
 \
-Fasttext models: https://fasttext.cc/docs/en/english-vectors.html\
-Word2Vec models: https://code.google.com/archive/p/word2vec/\
-GloVe models: https://nlp.stanford.edu/projects/glove/\
+Fasttext models: https://fasttext.cc/docs/en/english-vectors.html
+
+Word2Vec models: https://code.google.com/archive/p/word2vec/
+
+GloVe models: https://nlp.stanford.edu/projects/glove/
+
 \
 Then use the corresponding algorithm to load the chosen model:\
 load_glove(model_directory, p_model) to load a GloVe model\
